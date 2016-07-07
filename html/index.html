@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title> Real time multi-player games with HTML5</title>
+
+    	<!-- Load style sheet -->
+		<link href="css/index.css" media="screen" rel="stylesheet" type="text/css">
+
+    	<!-- Library code -->
+		
+ 		<!-- Load the GUI rendering library code. -->
+		<script type="text/javascript" src="js/lib/dat.gui.min.js"></script>
+		<!-- Load the keyboard specific code --> 
+		<script type="text/javascript" src="js/lib/keyboard.js"></script>
+		<!-- Load the gameloopc code --> 
+		<script type="text/javascript" src="js/lib/MainLoop.js/build/mainloop.min.js"></script>
+	 	<!-- Load socket.io client side contents. -->
+		<script src="js/lib/socket.io/socket.io.js"></script>
+        <!-- CreateJS libraries -->
+        <script src="js/lib/EaselJS-0.8.2/lib/easeljs-0.8.2.min.js"></script>
+        <script src="js/lib/PreloadJS-0.6.2/lib/preloadjs-0.6.2.min.js"></script>
+	 	
+    	<!-- Game code -->
+
+		<!-- Load the common game code. -->
+		<script type="text/javascript" src="js/common/game.core.js"></script>
+		<script type="text/javascript" src="js/common/game.weapons.js"></script>
+		<script type="text/javascript" src="js/common/game.avatar.js"></script>
+		<!-- Finally, Load the game client code. -->
+		<script type="text/javascript" src="js/client/game.menu.js"></script>
+		<script type="text/javascript" src="js/client/game.sprite.js"></script>		
+		<script type="text/javascript" src="js/client/game.client.js"></script>		
+		<script type="text/javascript" src="js/client/game.init.js"></script>
+
+	</head>
+
+	<body id="body">
+
+		<canvas id="viewport">
+		</canvas>
+
+	</body>
+
+</html>
